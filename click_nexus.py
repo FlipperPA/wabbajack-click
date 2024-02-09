@@ -45,4 +45,5 @@ def click_button(image):
             sleep(5)
 
 
-click_button(IMAGE_FILE)
+if __name__ == "__main__":
+    click_button(IMAGE_FILE)
