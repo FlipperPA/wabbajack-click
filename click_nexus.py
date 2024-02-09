@@ -1,10 +1,8 @@
 from datetime import datetime, timedelta
 import os
-from random import randint
 from time import sleep
 
 import pyautogui as gui
-from pyscreenshot import grab
 
 IMAGE_FILE = os.path.join("slow-download.png")
 CONFIDENCE = 0.7
