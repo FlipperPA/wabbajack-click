@@ -27,10 +27,10 @@ def find_button(image):
             image, confidence=CONFIDENCE, grayscale=GRAYSCALE
         )
         if datetime.now() > start + timedelta(seconds=2.5):
-            print("Breaking, no image found!")
+            print("Breaking, no button found!")
             return None
 
-    print(f"Found lure at location: {location}...")
+    print(f"Found button at location: {location}...")
 
     return location
 
